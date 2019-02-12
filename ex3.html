@@ -1,0 +1,51 @@
+<hmtl>
+<head>
+    <Title>My Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../css/ex3.css"/>
+    <script language="JavaScript" src="../js/ex3.js" type="text/javascript"></script>
+</head>
+    <body>
+   <h1 class = "calcHead">Ex3: Calculator</h1>
+    <div class = calCont>
+        <div class = cal>
+            <div class = "regNumb"><p>1604361</p></div>
+            <p class="box" id = "InputBox">0</p>
+            <div class = "but">
+                    <table>
+                    <tr>
+                        <td><button onclick="insert(1)">1</button></td>
+                        <td><button onclick="insert(2)">2</button></td>
+                        <td><button onclick="insert(3)">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert(4)">4</button></td>
+                        <td><button onclick="insert(5)">5</button></td>
+                        <td><button onclick="insert(6)">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert(7)">7</button></td>
+                        <td><button onclick="insert(8)">8</button></td>
+                        <td><button onclick="insert(9)">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert('.')">.</button></td>
+                        <td><button onclick="insert(0)">0</button></td>
+                        <td><button onclick="cle(true)" class = "C">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert('+')">+</button></td>
+                        <td><button onclick="insert('-')">-</button></td>
+                        <td><button onclick="insert('*')">*</button></td>
+                    </tr>
+                </table>
+                <table class="indent">
+                    <tr>
+                        <td><button onclick="insert('/')">/</button></td>
+                        <td><button onclick="insert('=')">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </body>
+</hmtl>
