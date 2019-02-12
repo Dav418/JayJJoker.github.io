@@ -1,0 +1,24 @@
+h2 {
+    text-align: center;
+    color: gray;
+}
+
+td{color: white;}
+
+td.even{color: black;}
+td.odd{color: white;}
+
+body {background-color: black;}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th{background-color: goldenrod;}
+
+tbody.c{color: purple}
+
+tr.even {background: #EEFFEE;}
+
+tr.odd {background: #afc7fe;}
