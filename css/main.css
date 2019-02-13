@@ -25,10 +25,9 @@ a:hover {
 .blurb p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: yellow;
 }
 .const h2{
-	color: blue;
+	color: white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 .const p {
