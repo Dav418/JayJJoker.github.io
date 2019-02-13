@@ -1,10 +1,5 @@
-body {
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark-honeycomb.png);
-    margin: 60px auto;
-    width: 70%;
-}
 
-
+@import "background.css";
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -17,7 +12,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
