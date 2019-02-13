@@ -1,12 +1,12 @@
 body {
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/paper_1.png);
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark-honeycomb.png);
     margin: 60px auto;
     width: 70%;
 }
 
 body:after{
      animation: grain 8s steps(10) infinite;
-     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/paper_1.png);
+     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark-honeycomb.png);
      content: "";
      height: 300%;
      left: -50%;
