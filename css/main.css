@@ -41,7 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.trick{}
+.trick p {
+    padding 100px;
+}
 
 .msg{
     padding: 1em;
