@@ -1,5 +1,5 @@
 
-body {font-size: large; background: black;}
+@import "background.css"
 
 .calcHead{
     color: white;
