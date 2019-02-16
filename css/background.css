@@ -1,8 +1,8 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+	margin: 60px auto;
+	width: 70%;
 	height: 90vh;
-	 background-image: url("background.jpg");
+	background-image: url("background.jpg");
 
 }
 
@@ -28,21 +28,14 @@ body {
   border-radius: 4px;
 }
 
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-
 .header a:hover {
-  background-color: #ddd;
+ 
   color: black;
 }
 
 
 .header a.active {
-  background-color: green;
+  
   color: white;
 }
 
