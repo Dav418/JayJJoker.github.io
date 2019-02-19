@@ -20,12 +20,13 @@ color:white;
     width: 110px;
 
     overflow: hidden;
+	padding-top: 15px ;
 	
 }
 
 
 .select-style select {
-    padding-top: 15px ;
+
     width: 130%;
     border: none;
     box-shadow: none;
