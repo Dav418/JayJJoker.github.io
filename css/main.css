@@ -28,17 +28,13 @@ color:white;
 
 .select-style select {
     
-    width: 110%;
+    width: 80%;
     border: none;
     box-shadow: none;
     background: transparent;
     background-image: none;
     -webkit-appearance: menulist;
-  /*webkit browsers */
-  -moz-appearance: menulist;
-  /*Firefox */
-  appearance: menulist;
-  /* modern browsers */
+	padding-left: 4px;
 }
 
 .select-style select::-ms-expand { 
