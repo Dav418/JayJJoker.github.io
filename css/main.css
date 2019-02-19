@@ -23,14 +23,11 @@ nav ul li, footer ul li {
     line-height: 1.4em;
     color: white;
 }
-.const h2{
+.const h2 p{
 	color: white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
-.const p {
-	font-family:"Comic Sans MS", cursive, sans-serif;
-	color: white;
-}
+
 nav ul {
 	    border-bottom: 1px solid #d5d5d5;
 		border-color: black;
