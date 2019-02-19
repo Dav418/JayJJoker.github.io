@@ -8,8 +8,13 @@
 </head>
 <body>
 		<div class="header">
-			<a href="c2f.html" class="active">Temperature converter</a>
-			<a href="calc.html" >Calculator</a>
+			<div class="select-style">
+				<select id = "projectList" onchange="la(this.value)">
+					<option selected disabled >---Projects---</option>
+					<option  value = "calc.html">Calculator</option>
+					<option value = "c2f.html">Temp converter</option>
+				</select>
+			</div>
 			<div class="header-right">
 				<a href="index.html">Home</a>
 				<a href="#contact">Contact</a>
