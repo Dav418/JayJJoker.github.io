@@ -7,8 +7,14 @@
     <body>
 	
 		<div class="header">
-			<a href="c2f.html" class="button">Temperature converter</a>
-				<a href="calc.html" class="active">Calculator</a>
+			<div class="select-style">
+			
+				<select id = "projectList" onchange="la(this.value)">
+					<option disabled >---Projects---</option>
+					<option selected value = "calc.html">Calculator</option>
+					<option value = "c2f.html">Temp converter</option>
+				</select>
+			</div>
 			<div class="header-right">
 				<a href="index.html">Home</a>
 				<a href="#contact">Contact</a>
