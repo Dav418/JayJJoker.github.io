@@ -1,12 +1,12 @@
 
 @import "background.css";
-nav ul, footer ul {
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
@@ -28,11 +28,7 @@ nav ul li, footer ul li {
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
-nav ul {
-	    border-bottom: 1px solid #d5d5d5;
-		border-color: black;
-	
-}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
