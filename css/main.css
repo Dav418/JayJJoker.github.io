@@ -1,17 +1,17 @@
 
 @import "background.css";
-footer ul {
+footer>ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-footer ul li {
+footer>ul>li {
     display: inline;
     margin-right: 20px;
 	
 }
-footer ul li a{
+footer>ul>li>a{
 color:white;
 }
 
@@ -27,7 +27,7 @@ color:white;
     line-height: 1.4em;
     color: white;
 }
-.const h2 p{
+.const h2, p{
 	color: white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
