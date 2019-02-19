@@ -68,6 +68,40 @@ a:hover {
 }
 
 
+.select-style {
+	
+	padding-top: 10px;
+    float:left;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+	
+   
+}
+
+.select-style select {
+    
+    width: 80%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: menulist;
+	padding-left: 4px;
+}
+
+.select-style select::-ms-expand { 
+	 border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+	display: block; }
+
+.select-style select:focus {
+    outline: none;
+}
+
+
 
 
 @-webkit-keyframes Gradient {
