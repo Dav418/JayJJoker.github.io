@@ -16,12 +16,12 @@ color:white;
 }
 
 .select-style {
-    border: 1px solid #ccc;
-    width: 120px;
-    border-radius: 3px;
+
+    width: 110px;
+
     overflow: hidden;
-    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
-}
+
+
 
 .select-style select {
     padding: 5px 8px;
@@ -30,7 +30,7 @@ color:white;
     box-shadow: none;
     background: transparent;
     background-image: none;
-    -webkit-appearance: none;
+    -webkit-appearance: menulist;
 }
 
 .select-style select:focus {
