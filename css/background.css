@@ -48,7 +48,13 @@ text-align: center;
 .header-right {
   float: right;
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 500px) {
   .header a {
