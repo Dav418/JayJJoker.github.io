@@ -5,14 +5,20 @@
 		<title>Dawid Gorski, Horrible Student</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		
+		<script>
+		function la(src){window.location = src;
+		}
+		</script>
 		
 </head>
 	<body>
 		
 		<div class="header">
-			<a href="c2f.html" class="button">Temperature converter</a>
-				<a href="calc.html" class="button">Calculator</a>
+			<select id = "projectList" onchange="la(this.value)">
+				<option disabled selected>Projects</option>
+				<option value = "calc.html">Calculator</option>
+				<option value = "c2f.html">Temp converter</option>
+			</select>
 			<div class="header-right">
 				<a class="active" href="#home">Home</a>
 				<a href="#contact">Contact</a>
