@@ -5,6 +5,11 @@ body {
 	background-image: url("background.jpg");
 
 }
+p{
+text-align: center;
+	color: white;
+	font-size: 12px;
+}
 
 .header {
 	overflow: hidden;
