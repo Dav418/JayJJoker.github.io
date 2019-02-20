@@ -1,0 +1,1 @@
+this is where all the javascrpt files are stored for the different pages on my website

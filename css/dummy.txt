@@ -1,1 +1,6 @@
-dummy.txt
+this is where all the css files for my websites are stored.
+
+headerAndFooter.css is a common css file for bouth the header and footer.
+this allows me to edit that file and the css for the header and footer will change
+across all pages. this is because in the css for a page there is a
+#include "headerAndFooter.css"; line which allows access to the css file
