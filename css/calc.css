@@ -8,7 +8,7 @@
 
 .regNumb p{
     color: white;
-    font-size: 8px;
+    font-size: 14px;
     margin-left: 12em;
 }
 
@@ -50,7 +50,9 @@ button { width:4em; height: 3em;
 
 .cal{
     display: inline-block;
-    width: 210px; height: 390px;
+    width: 210px; height: 385px;
     background: gray;
     border-radius: 25px;
+    margin-bottom: 10px;
+
 }
