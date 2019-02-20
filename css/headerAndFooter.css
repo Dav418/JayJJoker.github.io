@@ -28,7 +28,7 @@ p{
   text-align: center;
   padding: 8px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -40,7 +40,7 @@ p{
 
 
 .header a.active {
-  
+
   color: white;
 }
 
@@ -69,18 +69,18 @@ a:hover {
 
 
 .select-style {
-	
+
 	padding-top: 10px;
     float:left;
     width: 120px;
     border-radius: 3px;
     overflow: hidden;
-	
-   
+
+
 }
 
 .select-style select {
-    
+
     width: 80%;
     border: none;
     box-shadow: none;
@@ -90,7 +90,7 @@ a:hover {
 	padding-left: 4px;
 }
 
-.select-style select::-ms-expand { 
+.select-style select::-ms-expand {
 	 border: none;
     box-shadow: none;
     background: transparent;
@@ -101,6 +101,24 @@ a:hover {
     outline: none;
 }
 
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+footer>ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+footer>ul>li {
+    display: inline;
+    margin-right: 20px;
+
+}
+footer>ul>li>a{
+color:white;
+}
 
 
 
@@ -139,4 +157,3 @@ a:hover {
 		background-position: 0% 0%
 	}
 }
-

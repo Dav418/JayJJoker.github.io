@@ -10,3 +10,4 @@ added a temp converter
 
 added a colour changing header with links
 
+added a select menu to select what project to view
