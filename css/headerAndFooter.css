@@ -81,21 +81,23 @@ a:hover {
 
 .select-style select {
 
-    width: 80%;
+    width: 100%;
     border: none;
     box-shadow: none;
     background: transparent;
     background-image: none;
     -webkit-appearance: menulist;
-	padding-left: 4px;
+		-moz-appearance: menulist;
+		appearance: menulist;
+		padding-left: 4px;
 }
 
 .select-style select::-ms-expand {
-	 border: none;
+	 	border: none;
     box-shadow: none;
     background: transparent;
     background-image: none;
-	display: block; }
+		display: block; }
 
 .select-style select:focus {
     outline: none;

@@ -12,7 +12,11 @@ td{color: white;}
 td.even{color: black;}
 td.odd{color: white;}
 
-body {background-color: black;}
+.about h2, p{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #D3D3D3;
+
+}
 
 table{
     margin-left:auto;
