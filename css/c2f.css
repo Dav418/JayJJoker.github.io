@@ -12,7 +12,7 @@ td{color: white;}
 td.even{color: black;}
 td.odd{color: white;}
 
-h2.about , p.about{
+.about h2, .about p{
   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #D3D3D3;
 
