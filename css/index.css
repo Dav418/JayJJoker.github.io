@@ -6,14 +6,14 @@
 .blurb h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	color: gray;
+    color: #D3D3D3;
 }
 .blurb p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: white;
 }
-.const h2, p{
+.const h2, .const p{
 	color: white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
