@@ -6,9 +6,9 @@
     text-align: center;
 }
 
-.regNumb{
+.regNumb p{
     color: white;
-    font-size: small;
+    font-size: 3em;
     margin-left: 12em;
 }
 
