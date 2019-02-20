@@ -1,4 +1,10 @@
 @import "headerAndFooter.css";
 
-.content p{text-align: center
+.content div{   display: inline-block;
+	width: 500px;
+	min-height: 50px;
+
+	height: auto;
 }
+.left div{display: inline-block;float: left;}
+.right div{display: inline-block;position: absolute;float: right;}
