@@ -1,14 +1,14 @@
 @import "headerAndFooter.css";
 
-.content div{   
-	width: 500px;margin:0;
-	
-
+.content {
 
 }
-.left div{float:left;
-width:75%;
-overflow:hidden}
-.right div{float:left;
-width:25%;
-overflow:hidden;}
+.left{width:200px;
+float: left;
+height: 300px;
+background-color: black;
+margin-right: 20px;}
+
+.right {
+float: right;
+}
