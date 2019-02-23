@@ -124,7 +124,13 @@ p{
 .footer a:hover {
     text-decoration: underline;
 }
+.eggButton{
 
+	background: transparent;
+	border: none !important;
+	font-size:0;
+	padding: 10px 24px;
+}
 
 
 
