@@ -1,7 +1,46 @@
-<input type="button"
-value="What is this hmmmmmm?"
-onclick="document.body.style.cssText+=';background-image: url(32a96c9.jpg);';">
 
-<form action="index.html">
-    <input type="submit" value="r" />
-</form>
+<html>
+<head>
+  <title>Dav Gorret</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/egg.css">
+  <script>
+  function la(src){window.location = src;}
+  </script>
+
+</head>
+		<div class="header">
+			<div class="select-style">
+
+				<select id = "projectList" onchange="la(this.value)">
+					<option disabled selected>---Projects---</option>
+					<option value = "calc.html">Calculator</option>
+					<option value = "c2f.html">Temp converter</option>
+				</select>
+
+			</div>
+			<div class="header-right">
+				<a  href="index.html">Home</a>
+				<a href="#contact"><b>EGG</b></a>
+				<a class="active" href="#about"><i>EGG</i></a>
+				<a href="#about"><b><i>EgG</i></b></a>
+
+			</div>
+		</div>
+    <div class = "content">
+      <input type="button"
+      value="What is this hmmmmmm?"
+      onclick="document.body.style.cssText+=';background-image: url(egg1.jpg);';">
+
+      <form action="index.html">
+          <input type="submit" value="r" />
+      </form>
+    </div>
+    <div class="footer">
+          <ul>
+            <li><a href="mailto:gorskidawid98@gmail.com">email</a></li>
+            <li><a href="">Linked in</a></li>
+          </ul>
+    </div><!-- /.footer -->
+
+</html>
