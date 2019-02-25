@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>JS Debug</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/jsFun.css">
+		<script>
+		    function la(src){window.location = src;}
+		</script>
+    <script type="text/javascript">
+        function Run()
+         {
+            var ipNode = document.getElementById("Input");
+            var opNode = document.getElementById("Output");
+            opNode.textContent = ipNode.value;
+            var evalNode = document.getElementById("Eval");
+            try {evalNode.textContent = eval(ipNode.value);}
+            catch (e) {evalNode.textContent = e;}
+          }
+    </script>
+  </head>
+  <body>
+
+		<div class="header">
+			<div class="select-style">
+
+				<select id = "projectList" onchange="la(this.value)">
+					<option disabled selected>---Projects---</option>
+					<option value = "calc.html">Calculator</option>
+					<option value = "c2f.html">Temp converter</option>
+          <option value = "jsFun.html">JS Debug</option>
+				</select>
+
+			</div>
+			<div class="header-right">
+				<a href="../index.html">Home</a>
+				<a href="#contact">Contact</a>
+				<a href="about.html">About</a>
+				<a href="#about">CV</a>
+			</div>
+		</div>
+    <div class ="content">
+      <p>Enter JS code in the Text Area, then click run to evaluate it.</p>
+      <form action ="">
+        <p><textarea id="Input" rows="6" cols="61"></textarea>
+          <input type="button" value="Run" onclick="Run()" >
+          <input type="reset"  value="Clear"></p>
+      </form>
+      <p>Output:</p>
+      <pre id="Output">&nbsp;</pre>
+      <p>Evaluation:</p>
+      <pre id="Eval">&nbsp;</pre>
+    </div>
+		<div class="footer">
+					<ul>
+						<li><a href="mailto:gorskidawid98@gmail.com">email</a></li>
+						<li><a href="">Linked in</a></li>
+					</ul>
+		</div><!-- /.footer -->
+
+    </body>
+</html>
