@@ -7,3 +7,8 @@ function Run()
     try {evalNode.textContent = eval(ipNode.value);}
     catch (e) {evalNode.textContent = e;}
   }
+
+function Pop()
+{
+  window.confirm("Function failed successfully");
+}
