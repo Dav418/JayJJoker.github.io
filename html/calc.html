@@ -1,0 +1,77 @@
+<html>
+<head>
+    <Title>My Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../css/calc.css"/>
+    <script language="JavaScript" src="../js/calc.js" type="text/javascript"></script>
+    <script>function la(src){window.location = src;}</script>
+</head>
+    <body>
+
+		<div class="header">
+			<div class="select-style">
+
+				<select id = "projectList" onchange="la(this.value)">
+					<option selected disabled >---Projects---</option>
+					<option value = "calc.html">Calculator</option>
+					<option value = "c2f.html">Temp converter</option>
+				</select>
+			</div>
+			<div class="header-right">
+				<a href="../index.html">Home</a>
+				<a href="#contact"><i>Contact</i></a>
+				<a href="about.html">About</a>
+				<a href="#about">CV</a>
+
+			</div>
+		</div>
+
+   <h1 class = "calcHead">Calculator!!! Tada!</h1>
+    <div class = calCont>
+        <div class = cal>
+            <div class = "regNumb"><p>1604361</p></div>
+            <p class="box" id = "InputBox">0</p>
+            <div class = "but">
+                    <table>
+                    <tr>
+                        <td><button onclick="insert(1)">1</button></td>
+                        <td><button onclick="insert(2)">2</button></td>
+                        <td><button onclick="insert(3)">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert(4)">4</button></td>
+                        <td><button onclick="insert(5)">5</button></td>
+                        <td><button onclick="insert(6)">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert(7)">7</button></td>
+                        <td><button onclick="insert(8)">8</button></td>
+                        <td><button onclick="insert(9)">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert('.')">.</button></td>
+                        <td><button onclick="insert(0)">0</button></td>
+                        <td><button onclick="cle(true)" class = "C">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insert('+')">+</button></td>
+                        <td><button onclick="insert('-')">-</button></td>
+                        <td><button onclick="insert('*')">*</button></td>
+                    </tr>
+                </table>
+                <table class="indent">
+                    <tr>
+                        <td><button onclick="insert('/')">/</button></td>
+                        <td><button onclick="insert('=')">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+					<ul>
+        		<li><a href="mailto:gorskidawid98@gmail.com">email</a></li>
+						<li><a href="">Linked in</a></li>
+					</ul>
+		</div><!-- /.footer -->
+    </body>
+</html>
