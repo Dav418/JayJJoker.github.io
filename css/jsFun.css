@@ -1,6 +1,12 @@
 @import "headerAndFooter.css";
 
-pre {
+.cont{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cont pre {
     margin: 2em;
     background: #EEFFFF;
     border: solid;
@@ -9,10 +15,11 @@ pre {
     border-width: 1px
 }
 
-.content{
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-p{text-align: center;}
+.cont p{
+  text-align: center;
+
+
+.alertPlay {
+
+}
