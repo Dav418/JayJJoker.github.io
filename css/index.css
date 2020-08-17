@@ -2,18 +2,55 @@
 @import "headerAndFooter.css";
 
 
+.blurb{
+  width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
 
+.blurb > .blurbChild {
+    display: table-cell;
+    vertical-align: middle;
+}
 .blurb h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #D3D3D3;
+
+    font-size: 5em;
+    font-family:"American", "Typewriter", "serif";
+    margin-block-start: 1em;
+    margin-block-end:0;
+
 }
 .blurb p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: white;
+    color:black;
+  }
+.const {
+
+  text-align: center;
+
 }
+#nodeJSlogo, #javaLogo{
+  padding-left: 20px;
+   width:100px;
+   height: 100px;
+}
+#nodeJScont{
+  padding-left: 50px;
+  padding-right: 50px;
+  display: inline-block;
+   width:400px;
+   height:300px;
+}
+#javaCont{
+  vertical-align:top;
+      display: inline-block;
+      width:400px;
+      height:300px;
+}
+
 .const h2, .const p{
-	color: white;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: black;
+
 }

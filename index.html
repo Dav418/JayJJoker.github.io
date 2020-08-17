@@ -5,49 +5,44 @@
 		<title>Dav Gorret</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script>
-		function la(src){window.location = src;}
-		</script>
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 	<body>
-
 		<div class="header">
-			<div class="select-style">
-
-				<select id = "projectList" onchange="la(this.value)">
-					<option disabled selected>---Projects---</option>
-					<option value = "html/calc.html">Calculator</option>
-					<option value = "html/c2f.html">Temp converter</option>
-					<option value = "html/jsFun.html">JS Debug</option>
-				</select>
-
-			</div>
+		<div id="logo">
+			<p>Logo</p>
+		</div>
 			<div class="header-right">
-				<a class="active" href="#home">Home</a>
-				<a href="#contact">Contact</a>
+				<a class="active" href="index.html">Home</a>
+				<a href="html/contact.html">Contact</a>
 				<a href="about.html">About</a>
-				<a href="#about">CV</a>
-
+				<a href="Dawid Gorski CV .docx" download>CV</a>
 			</div>
 		</div>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Welcome to my webpage</h1>
-				<p>I'm a computer science student and this page was created on git! How cool is that?</p>
-				<p>Theres not much to do on here yet, but comeback soon for new content.</br>For now you can view the past projects that I have done and email me lol</p>
-    		</div><!-- /.blurb -->
+					<div class="blurbChild">
+						<h1>Hi, I'm Dawid</h1>
+							<p>I'm a computer science graduate from the university of Essex, who achived a 2.1<br>
+							In my spare time, I enjoy building Node.js and Java applications</p>
+					</div>
+				</div><!-- /.blurb -->
 			<div class="const">
-        		<h2>This is an index page</h2>
-				<p>And im still not sure what to put here</br> aka website still<i> under construction</i></p>
-    		</div><!-- /.blurb -->
+				<div id="nodeJScont">
+					<img src= "images/Node.js_logo.svg" alt="Node.js logo" id="nodeJSlogo">
+					<p>My dissertatuion was a server-client game of monopoly build using Node.js, which achived me a 1st.<br>
+						Click here for more info.  </p>
+				</div>
+
+				<div id="javaCont">
+						<img src="images/Java_logo.svg" alt="Java logo" id="javaLogo">
+						<p> I have made many Java applications in my spare time. Some were required as part of my course and some are just for fun.</p>
+					</div>
+
+			</div><!--/.const -->
 		</div><!-- /.container -->
 		<div class="footer">
-					<ul>
-        		<li><a href="mailto:gorskidawid98@gmail.com">email</a></li>
-						<li><a href="">Linked in</a></li>
-						<button onclick="location.href = 'html/egg.html';" class="eggButton">
-					</ul>
+				<p>Im am looking for a job so if I have the skills you are looking for get in <a href="html/contact.html">contact</a> with me. </p>
 		</div><!-- /.footer -->
 	</body>
 </html>

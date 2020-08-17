@@ -1,14 +1,1 @@
 @import "headerAndFooter.css";
-
-.content {
-
-}
-.left{width:200px;
-float: left;
-height: 300px;
-background-color: black;
-margin-right: 20px;}
-
-.right {
-float: right;
-}
